@@ -1,6 +1,6 @@
 ﻿namespace LogicalOperators
 {
-    internal class Program
+    internal class LogicalOperators
     {
         static void Main(string[] args)
         {

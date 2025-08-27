@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperators", "Logical
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatements", "ConditionalStatements\ConditionalStatements.csproj", "{39D6DFB4-BEB8-4E4D-8D34-26E99092EF02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{532C818D-7DF0-4D0B-850A-811E0B5F695B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{39D6DFB4-BEB8-4E4D-8D34-26E99092EF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D6DFB4-BEB8-4E4D-8D34-26E99092EF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D6DFB4-BEB8-4E4D-8D34-26E99092EF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532C818D-7DF0-4D0B-850A-811E0B5F695B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532C818D-7DF0-4D0B-850A-811E0B5F695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532C818D-7DF0-4D0B-850A-811E0B5F695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532C818D-7DF0-4D0B-850A-811E0B5F695B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{9E331271-CB0E-4E48-A739-07D4BAB02AC2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C2FCEECB-837F-4F76-A6AA-25DD587E0BE1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{39D6DFB4-BEB8-4E4D-8D34-26E99092EF02} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{532C818D-7DF0-4D0B-850A-811E0B5F695B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8231031-9FB5-4F6F-8623-B16F9F3B939D}
