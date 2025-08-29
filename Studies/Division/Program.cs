@@ -8,9 +8,6 @@ namespace Division
     {
         static void Main(string[] args)
         {
-            // Fazer um programa para ler um número N. Depois leia N pares de números e mostre a divisão do primeiro pelo
-            // segundo. Se o denominador for igual a zero, mostrar a mensagem "divisao impossivel".
-
             Console.Write("Enter the number of divisions you want to do: ");
             int div = int.Parse(Console.ReadLine());
 
