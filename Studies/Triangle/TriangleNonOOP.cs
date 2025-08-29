@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace TriangleNonOOP
 {
-    internal class Program
+    internal class TriangleNonOOP
     {
         static void Main(string[] args)
         {
