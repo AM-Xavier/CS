@@ -3,13 +3,10 @@ using System.Runtime.ConstrainedExecution;
 
 namespace Factorial
 {
-    internal class Program
+    internal class Factorial
     {
         static void Main(string[] args)
         {
-            // Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N - 1) * (N - 2) * (N - 3) * ... *1.
-            // Lembrando que, por definição, fatorial de 0 é 1.
-
             Console.Write("Enter a number: ");
             int n = int.Parse(Console.ReadLine()),
                 factorial = 1;
