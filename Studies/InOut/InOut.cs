@@ -2,7 +2,7 @@
 
 namespace InOut
 {
-    internal class Program
+    internal class InOut
     {
         static void Main(string[] args)
         {

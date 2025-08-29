@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace TestCase
 {
-    internal class Program
+    internal class TestCase
     {
         static void Main(string[] args)
         {

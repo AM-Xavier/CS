@@ -4,7 +4,7 @@ using System.Runtime.ConstrainedExecution;
 
 namespace Division
 {
-    internal class Program
+    internal class Division
     {
         static void Main(string[] args)
         {

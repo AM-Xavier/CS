@@ -1,6 +1,6 @@
 ﻿namespace InOut2
 {
-    internal class Program
+    internal class InOut2
     {
         static void Main(string[] args)
         {

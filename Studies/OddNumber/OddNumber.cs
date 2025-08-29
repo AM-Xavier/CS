@@ -1,6 +1,6 @@
 ﻿namespace OddNumber
 {
-    internal class Program
+    internal class OddNumber
     {
         static void Main(string[] args)
         {
