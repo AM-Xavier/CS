@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
+using static System.FormattableString;
 
 namespace Employee
 {
@@ -11,16 +13,21 @@ namespace Employee
         public string Name;
         public double Salary, Taxes;
 
-        public double LiquidSalary()
+        public double NetSalary()
         {
             return Salary - Taxes;
         }
 
         public void SalaryIncrease(double increase)
         {
-            Salary = Salary * (increase/100);
+            Salary *= (1 + (increase / 100));
         }
 
+        public override string ToString()
+        {
+            return Invariant($"{Name}, ${NetSalary():F2}");
+        }
+        
 
     }
 }
