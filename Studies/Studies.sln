@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGrades", "StudentGra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMembers1", "StaticMembers1\StaticMembers1.csproj", "{5AE2581A-B23C-41B8-B213-AC7E3DB3057F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolarQuotation", "DolarQuotation\DolarQuotation.csproj", "{91E449AD-A8CB-4F28-A460-41FE67856711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{5AE2581A-B23C-41B8-B213-AC7E3DB3057F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE2581A-B23C-41B8-B213-AC7E3DB3057F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE2581A-B23C-41B8-B213-AC7E3DB3057F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E449AD-A8CB-4F28-A460-41FE67856711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E449AD-A8CB-4F28-A460-41FE67856711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E449AD-A8CB-4F28-A460-41FE67856711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E449AD-A8CB-4F28-A460-41FE67856711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +281,7 @@ Global
 		{5632280C-178F-4E3F-A084-A52CC736EB19} = {19179793-D700-4D9C-9464-E23F2D5AACD7}
 		{5D50C227-4DE1-4162-9A07-FA795AD963E1} = {19179793-D700-4D9C-9464-E23F2D5AACD7}
 		{5AE2581A-B23C-41B8-B213-AC7E3DB3057F} = {17BD3EF8-39EF-4E9C-B025-C2CAFE058E9B}
+		{91E449AD-A8CB-4F28-A460-41FE67856711} = {19179793-D700-4D9C-9464-E23F2D5AACD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8231031-9FB5-4F6F-8623-B16F9F3B939D}

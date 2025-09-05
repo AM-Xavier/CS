@@ -7,11 +7,6 @@ namespace StudentGrades
     {
         static void Main(string[] args)
         {
-            // Student: string
-            // Grades.a: double
-            // Grades.b: double
-            // Grades.c: double
-            // Final Grade: double
 
             Grades student = new Grades();
 
