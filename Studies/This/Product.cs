@@ -5,26 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Overloading {
+namespace This {
     internal class Product {
         public string Name;
         public double Price;
         public int Amount;
-
-        public Product(string name, double price, int amount) {
-            Name = name;
-            Price = price;
-            Amount = amount;
-        }
-
-        public Product(string name, double price) {
-            Name = name;
-            Price = price;
+        
+        public Product() {
             Amount = 10;
         }
-
-        public Product() {
-
+        public Product(string name, double price) : this() {
+            Name = name;
+            Price = price;
+        }
+        public Product(string name, double price, int amount) : this(name, price){
+            Amount = amount;
         }
 
         public double TotalValueInStorage() {
@@ -43,7 +38,7 @@ namespace Overloading {
             + ", "
             + Amount
             + " units, Total: $ "
-            + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+            + TotalValueInStorage().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

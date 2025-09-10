@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Overloading {
+namespace This {
     internal class Program {
         static void Main(string[] args) {
             Console.WriteLine("Enter product info:");
