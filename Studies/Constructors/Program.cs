@@ -28,7 +28,7 @@ namespace Constructors
             p.AdicionarProdutos(amt);
             
             Console.WriteLine();
-            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine("Updated info: " + p); 
             Console.WriteLine();
             
             Console.Write("Enter amount of products to be removed from storaged: ");

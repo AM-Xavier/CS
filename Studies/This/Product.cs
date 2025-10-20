@@ -14,10 +14,14 @@ namespace This {
         public Product() {
             Amount = 10;
         }
+
+        // You can use 'this' to call another constructor in the same class
         public Product(string name, double price) : this() {
             Name = name;
             Price = price;
         }
+
+        // You can also chain multiple constructors
         public Product(string name, double price, int amount) : this(name, price){
             Amount = amount;
         }
