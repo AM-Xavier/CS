@@ -37,7 +37,6 @@ namespace Encapsulation {
             return _price;
         }
 
-
         public double TotalValueInStorage() {
             return _price * _amount;
         }
